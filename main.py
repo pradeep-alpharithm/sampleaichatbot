@@ -10,7 +10,7 @@ load_dotenv()
 GROQ_API_KEY = os.getenv('GROQ_API_KEY')
 
 # Initialize the Groq client
-client = Groq(api_key=GROQ_API_KEY)
+client = Groq(api_key='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')
 MODEL = 'llama3-70b-8192'
 
 def get_groq_response(question):
